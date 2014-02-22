@@ -1,22 +1,9 @@
-/**
- * Copyright © Axa Canada Tech.
- * All rights reserved.
- *
- * This software is the confidential and proprietary information of
- * Axa Canada Tech. ("Confidential Information").  You shall not
- * disclose such Confidential Information and shall use it only in
- * accordance with the terms of the license agreement you entered into
- * with Axa Canada Tech.
- */
-
 package com.quartz.qutilities.logging;
 
 import org.apache.log4j.Logger;
 
 /**
  * Implementation of Log interface
- * 
- * @author carbom02
  */
 final class Log4jImpl implements ILog
 {

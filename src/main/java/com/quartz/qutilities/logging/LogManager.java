@@ -1,14 +1,3 @@
-/**
- * Copyright © Axa Canada Tech.
- * All rights reserved.
- *
- * This software is the confidential and proprietary information of
- * Axa Canada Tech. ("Confidential Information").  You shall not
- * disclose such Confidential Information and shall use it only in
- * accordance with the terms of the license agreement you entered into
- * with Axa Canada Tech.
- */
-
 package com.quartz.qutilities.logging;
 
 import java.io.File;
@@ -38,8 +27,6 @@ import org.apache.log4j.xml.DOMConfigurator;
  * Priority levels are :
  * </p>
  * Level.DEBUG, <br/>Level.INFO, <br/>Level.WARN, <br/>Level.ERROR, <br/>Level.FATAL, <br/>
- * 
- * @author Mathieu Carbou
  */
 public final class LogManager
 {
