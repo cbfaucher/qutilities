@@ -10,9 +10,6 @@ import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.transaction.support.TransactionCallback;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.TransactionStatus;
-import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
-
-import javax.sql.DataSource;
 
 /**
  * INSERT YOUR COMMENT HERE....

@@ -7,7 +7,7 @@
 package com.quartz.qutilities.sql;
 
 import org.joda.time.YearMonthDay;
-import org.springframework.jdbc.core.simple.ParameterizedRowMapper;
+import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -18,7 +18,7 @@ import java.sql.SQLException;
  * @author Christian
  * @since Quartz...
  */
-public class YearMonthDayByTimeMillisRowMapper implements ParameterizedRowMapper<YearMonthDay>
+public class YearMonthDayByTimeMillisRowMapper implements RowMapper<YearMonthDay>
 {
     public YearMonthDayByTimeMillisRowMapper()
     {
